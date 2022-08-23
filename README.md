@@ -4,7 +4,8 @@
 npm install --save react-to-print
 ```  
 # https://www.npmjs.com/package/react-to-print
-# https://linguinecode.com/post/how-to-use-react-useref-with-typescript
+# https://linguinecode.com/post/how-to-use-react-useref-with-typescript  
+# https://newdevzone.com/posts/how-to-use-react-to-print-with-typescript  
 
 # 1.1 TS of useRef Hook
 ```
