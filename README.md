@@ -4,8 +4,53 @@
 npm install --save react-to-print
 ```  
 # https://www.npmjs.com/package/react-to-print
+# https://linguinecode.com/post/how-to-use-react-useref-with-typescript
 
-# 1. Print without typescript:-
+# TS of useRef Hook
+```
+import React, { useRef, useLayoutEffect } from 'react';
+
+const App = () => {
+  const h1Ref = useRef<HTMLHeadingElement>(null);
+
+  console.log(h1Ref) // { current: null }
+
+  useLayoutEffect(() => {
+    console.log(h1Ref); // { current: <h1_object> }
+  })
+
+  return (
+    <h1 ref={h1Ref}>App</h1>
+  )
+}
+
+export default App;
+```  
+
+
+
+```
+// <div> reference type
+const divRef = React.useRef<HTMLDivElement>(null);
+```  
+
+```
+// <button> reference type
+const buttonRef = React.useRef<HTMLButtonElement>(null);
+```  
+
+```
+// <br /> reference type
+const brRef = React.useRef<HTMLBRElement>(null);
+```  
+
+```
+// <a> reference type
+const linkRef = React.useRef<HTMLLinkElement>(null);
+```  
+
+
+1. Print without typescript:-
 # index.js
 
 ```
