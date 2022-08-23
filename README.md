@@ -27,10 +27,7 @@ const App = () => {
 export default App;
 ```  
 
-
-
-```
-// &lt div &gt reference type
+# 1.2 &lt; div &gt; reference type
 const divRef = React.useRef<HTMLDivElement>(null);
 ```  
 
