@@ -52,7 +52,8 @@ const linkRef = React.useRef<HTMLLinkElement>(null);
 ```  
 
 
-1. Print without typescript:-
+# 1. Print without typescript:-  
+
 # index.js
 
 ```
