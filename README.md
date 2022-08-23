@@ -3,6 +3,7 @@
 ```
 npm install --save react-to-print
 ```  
+# https://www.npmjs.com/package/react-to-print
 
 # 1. Print without typescript:-
 # index.js
