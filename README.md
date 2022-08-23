@@ -6,7 +6,7 @@ npm install --save react-to-print
 # https://www.npmjs.com/package/react-to-print
 # https://linguinecode.com/post/how-to-use-react-useref-with-typescript
 
-# TS of useRef Hook
+# 1.1 TS of useRef Hook
 ```
 import React, { useRef, useLayoutEffect } from 'react';
 
@@ -27,22 +27,27 @@ const App = () => {
 export default App;
 ```  
 
-# 1.2 &lt; div &gt; reference type
+# 1.2 &lt; div &gt; reference type  
+
+```
 const divRef = React.useRef<HTMLDivElement>(null);
 ```  
 
+# 1.3 &lt; button &gt; reference type  
+
 ```
-// <button> reference type
 const buttonRef = React.useRef<HTMLButtonElement>(null);
 ```  
 
+# 1.4 &lt; br / &gt; reference type
+
 ```
-// <br /> reference type
 const brRef = React.useRef<HTMLBRElement>(null);
 ```  
 
+# 1.5 &lt; a &gt; reference type
+
 ```
-// <a> reference type
 const linkRef = React.useRef<HTMLLinkElement>(null);
 ```  
 
